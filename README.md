@@ -50,18 +50,24 @@ To install and run the YouTube Chat Extension locally, follow these steps:
 
 3. Install the dependencies and build the project:
 
+   3.1 Install `pnpm` via `npm`:
+   ```bash
+   npm i pnpm --global
+   ```
+   
+   3.2 Build the project:
    ```bash
    pnpm install
    pnpm run build
    ```
 
-4. Load the extension into Chrome:
+5. Load the extension into Chrome:
 
    1. Open Chrome and navigate to `chrome://extensions/`.
    2. Enable "Developer mode" by toggling the switch in the top right corner.
    3. Click "Load unpacked" and select the `build/chrome-mv3-dev` directory from the project you just built.
 
-5. Open YouTube and start chatting with videos! :)
+6. Open YouTube and start chatting with videos! :)
 
 > The extension does not support the new YouTube layout. To revert to the old layout, use the uBlock Origin extension. The extension should then work correctly.
 
